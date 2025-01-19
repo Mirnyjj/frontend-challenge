@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["cdn2.thecatapi.com"],
   },
+  // output: "export",
+  // reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;

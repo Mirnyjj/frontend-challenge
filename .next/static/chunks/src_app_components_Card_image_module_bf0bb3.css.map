@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://B%3A/VScode/projects/frontend-challenge/src/app/components/Card/image.module.css"],"sourcesContent":[".imageContainer {\r\n  overflow: hidden;\r\n  transition: all 0.3s ease;\r\n  cursor: pointer;\r\n  width: 225px;\r\n  height: 225px;\r\n}\r\n\r\n.imageContainer:hover {\r\n  transform: scale(1.14);\r\n  z-index: 1;\r\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18), 0 6px 12px rgba(0, 0, 0, 0.24);\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA"}},
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
