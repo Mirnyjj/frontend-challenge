@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://B%3A/VScode/projects/frontend-challenge/src/app/styles.module.css"],"sourcesContent":["body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.container {\r\n  display: \"flex\";\r\n  flex-direction: \"column\";\r\n  min-height: \"100vh\";\r\n  margin-top: \"100px\";\r\n  width: \"100%\";\r\n  max-width: \"1440px\";\r\n}\r\n.main {\r\n  flex: 1;\r\n  display: \"flex\";\r\n  max-width: \"1440px\";\r\n  width: \"100%\";\r\n  justify-content: \"center\";\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;;;AAQA"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file://B%3A/VScode/projects/frontend-challenge/src/app/components/Header/header.module.css"],"sourcesContent":[".header {\r\n  display: flex;\r\n  position: fixed;\r\n  margin: 0;\r\n  width: 100%;\r\n  background-color: rgba(33, 150, 243, 1);\r\n  justify-content: center;\r\n  align-items: center;\r\n  height: 64px;\r\n  box-shadow: 0 20px 30px rgba(1, 1, 1, 0.15);\r\n  z-index: 100;\r\n}\r\n.container {\r\n  display: flex;\r\n  /* flex-wrap: nowrap; */\r\n  align-items: stretch;\r\n  height: 100%;\r\n  width: 1440px;\r\n  font-family: Roboto;\r\n  font-weight: 400;\r\n  font-size: 14px;\r\n  line-height: 21px;\r\n  letter-spacing: 0.25px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAYA"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

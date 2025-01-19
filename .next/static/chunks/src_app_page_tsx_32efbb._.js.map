@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://B%3A/VScode/projects/frontend-challenge/src/app/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <div\r\n      style={{\r\n        maxWidth: \"1440px\",\r\n        width: \"100%\",\r\n        display: \"flex\",\r\n        gap: \"100px\",\r\n        flexDirection: \"column\",\r\n        alignItems: \"center\",\r\n      }}\r\n    >\r\n      gfhxfjykyuluilu\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACtB,qBACE,6LAAC;QACC,OAAO;YACL,UAAU;YACV,OAAO;YACP,SAAS;YACT,KAAK;YACL,eAAe;YACf,YAAY;QACd;kBACD;;;;;;AAIL;KAfwB"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

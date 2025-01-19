@@ -1,0 +1,50 @@
+/* [project]/src/app/styles.module.css [app-client] (css) */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.styles-module__3bMVka__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.styles-module__3bMVka__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+  width: 100%;
+}
+
+.styles-module__3bMVka__homePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.styles-module__3bMVka__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 0;
+  gap: 48px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.styles-module__3bMVka__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=src_app_styles_module_b52d8e.css.map*/

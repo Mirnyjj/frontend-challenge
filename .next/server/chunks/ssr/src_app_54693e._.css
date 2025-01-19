@@ -1,0 +1,61 @@
+/* [project]/src/app/styles.module.css [app-client] (css) */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.styles-module__3bMVka__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.styles-module__3bMVka__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+  width: 100%;
+}
+
+.styles-module__3bMVka__homePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.styles-module__3bMVka__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 0;
+  gap: 48px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* [project]/src/app/components/Card/image.module.css [app-client] (css) */
+.image-module__QHTBPa__imageContainer {
+  overflow: hidden;
+  transition: all .3s;
+  cursor: pointer;
+  width: 225px;
+  height: 225px;
+}
+
+.image-module__QHTBPa__imageContainer:hover {
+  transform: scale(1.14);
+  z-index: 1;
+  box-shadow: 0 6px 12px #0000002e, 0 6px 12px #0000003d;
+}
+
+
+/*# sourceMappingURL=src_app_54693e._.css.map*/

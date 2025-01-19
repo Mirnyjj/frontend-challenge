@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/components/Card/card.module.css"],"sourcesContent":[".imageContainer {\r\n  overflow: hidden;\r\n  transition: all 0.3s ease;\r\n  width: 225px;\r\n  height: 225px;\r\n}\r\n\r\n.imageContainer:hover {\r\n  transform: scale(1.14);\r\n  z-index: 1;\r\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18), 0 6px 12px rgba(0, 0, 0, 0.24);\r\n}\r\n.imageContainer:hover .heart {\r\n  visibility: visible;\r\n}\r\n\r\n.heart {\r\n  position: absolute;\r\n  z-index: 10;\r\n  bottom: 28.3px;\r\n  right: 21px;\r\n  border: none;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  box-sizing: border-box;\r\n  background: transparent;\r\n  fill: #ccc;\r\n  cursor: pointer;\r\n  visibility: hidden;\r\n  object-fit: contain;\r\n}\r\n\r\n.heart:hover svg path {\r\n  fill: rgba(242, 78, 30, 1);\r\n}\r\n\r\n.heart:active svg path {\r\n  fill: rgba(255, 58, 0, 1);\r\n  stroke-miterlimit: 1;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;AAKA;;;;AAIA;;;;;;;;;;;;;;;;;AAiBA;;;;AAIA"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

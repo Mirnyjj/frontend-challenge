@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/components/LinkPage/linkPage.module.css"],"sourcesContent":[".linkActive {\r\n  display: flex;\r\n  background-color: rgba(30, 136, 229, 1);\r\n  align-items: center;\r\n  padding-left: 23.6px;\r\n  padding-right: 23.6px;\r\n  border: none;\r\n  text-decoration: none;\r\n  color: rgba(255, 255, 255, 1);\r\n}\r\n\r\n.link {\r\n  display: flex;\r\n  align-items: center;\r\n  padding-left: 23.6px;\r\n  padding-right: 23.6px;\r\n  border: none;\r\n  text-decoration: none;\r\n  color: rgba(255, 255, 255, 0.7);\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
