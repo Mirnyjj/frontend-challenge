@@ -1,14 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  compiler: {
-    styledComponents: true,
-  },
+const nextConfig = {
+  // basePath: "/frontend-challenge",
+  output: "export",
+  reactStrictMode: true,
   images: {
-    domains: ["cdn2.thecatapi.com"],
+    domains: ["yourdomain.com"],
   },
-  // output: "export",
-  // reactStrictMode: true,
 };
 
 module.exports = nextConfig;

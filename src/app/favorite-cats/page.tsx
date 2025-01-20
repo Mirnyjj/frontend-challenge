@@ -1,4 +1,5 @@
 "use client";
+
 import { Card } from "../components/Card/Card";
 import { FavoriteCat } from "../models/models";
 import styles from "../styles.module.css";

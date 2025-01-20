@@ -1,11 +1,26 @@
-"use server";
-import { CatsType } from "./models/models";
-import { getCats } from "./getCats";
-import styles from "./styles.module.css";
-import { Card } from "./components/Card/Card";
+"use client";
 
-export default async function Page() {
-  const cats: CatsType[] = await getCats();
+import { Card } from "./components/Card/Card";
+import { getCats } from "./getCats";
+import { CatsType } from "./models/models";
+import styles from "./styles.module.css";
+
+import { useEffect, useState } from "react";
+
+export default function Page() {
+  const [cats, setCats] = useState<CatsType[] | undefined>(undefined);
+
+  useEffect(() => {
+    async function fetchData() {
+      const fetchedCats = await getCats();
+      setCats(fetchedCats);
+    }
+    fetchData();
+  }, []);
+
+  if (!cats) {
+    return <div>Загружаем котиков...</div>;
+  }
   return (
     <div className={styles.homePage}>
       <ul className={styles.ul}>
