@@ -30,7 +30,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/**/*",
-    "next.config.js"
+    "next.config.js",
+    "pages/favorite-cats"
   ],
   "exclude": ["node_modules"]
 }

@@ -1,5 +1,3 @@
-"use server";
-// export const dynamic = "force-dynamic"
 import { CatsType } from "./models/models";
 
 const API_KEY =

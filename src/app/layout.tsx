@@ -1,5 +1,7 @@
-import styles from "./styles.module.css";
+"use client";
+
 import Header from "./components/Header/Header";
+import styles from "./styles.module.css";
 
 export default function RootLayout({
   children,
