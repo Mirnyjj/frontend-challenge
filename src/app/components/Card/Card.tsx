@@ -7,9 +7,10 @@ import { FavoriteCat } from "../../models/models";
 type Props = {
   url: string;
   id: string;
+  onRemove?: (idFavoriteCat: string) => void;
 };
 
-export const Card = ({ url, id }: Props) => {
+export const Card = ({ url, id, onRemove }: Props) => {
   const storageKey: string = "favorite-cat";
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -21,7 +22,7 @@ export const Card = ({ url, id }: Props) => {
       storedCats.findIndex((cat: FavoriteCat) => cat.idFavoriteCat === id) !==
         -1
     );
-  }, [isFavorite]);
+  }, [id]);
 
   const findFavoriteCat = (urlFavoriteCat: string, idFavoriteCat: string) => {
     let storedCats: FavoriteCat[] = JSON.parse(
@@ -36,6 +37,9 @@ export const Card = ({ url, id }: Props) => {
       storedCats = storedCats.filter(
         (cat) => cat.idFavoriteCat !== idFavoriteCat
       );
+      if (onRemove) {
+        onRemove(idFavoriteCat);
+      }
     }
 
     localStorage.setItem(storageKey, JSON.stringify(storedCats));

@@ -1,4 +1,3 @@
-"use client";
 import styles from "./styles.module.css";
 import Header from "./components/Header/Header";
 
@@ -9,7 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <head></head>
+      <head>
+        <meta charSet="utf-8" />
+        <title>Котики</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Мои любимые котики" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body className={styles.body}>
         <Header />
         <div className={styles.container}>

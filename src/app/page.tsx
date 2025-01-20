@@ -1,20 +1,20 @@
-import { getCats } from "./getCats";
+"use server";
 import { CatsType } from "./models/models";
+import { getCats } from "./getCats";
 import styles from "./styles.module.css";
 import { Card } from "./components/Card/Card";
-export default async function Home() {
-  let cats: CatsType[] = await getCats();
-  return cats.length > 1 ? (
+
+export default async function Page() {
+  const cats: CatsType[] = await getCats();
+  return (
     <div className={styles.homePage}>
       <ul className={styles.ul}>
-        {cats.map(({ url, id }, key) => (
-          <li key={key}>
-            <Card url={url} id={id} />
+        {cats.map((cat, index) => (
+          <li key={index}>
+            <Card url={cat.url} id={cat.id} />
           </li>
         ))}
       </ul>
     </div>
-  ) : (
-    <div className={styles.title}>Загружаем котиков</div>
   );
 }
